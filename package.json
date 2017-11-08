@@ -1,0 +1,41 @@
+{
+  "name": "todo-app-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squidat/todo-web-service.git"
+  },
+  "engines": {
+    "node": "8.6.0"
+  },
+  "author": "Juan Goncalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Squidat/todo-web-service/issues"
+  },
+  "homepage": "https://github.com/Squidat/todo-web-service#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4",
+    "mongoose-unique-validator": "^1.0.6",
+    "mongoose-validator": "^1.3.2"
+  },
+  "devDependencies": {
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  }
+}
